@@ -239,7 +239,7 @@ dnf_install epel-release dnf-plugins-core # For ccache, ninja
 # dnf config-manager --set-enabled powertools
 dnf_install ccache git wget which libevent-devel \
   openssl-devel libzstd-devel lz4-devel double-conversion-devel \
-  curl-devel cmake libxml2-devel libgsasl-devel libuuid-devel patch
+  curl-devel libxml2-devel libgsasl-devel libuuid-devel patch
 
 $SUDO dnf remove -y gflags
 
